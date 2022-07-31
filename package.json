@@ -1,0 +1,31 @@
+{
+  "name": "minecraft-status-bot",
+  "version": "1.0.0",
+  "description": "A Minecraft status bot for Discord",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Picuu/minecraft-status-bot.git"
+  },
+  "keywords": [
+    "minecraft",
+    "status",
+    "discord-bot"
+  ],
+  "author": "Picu#9286",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/Picuu/minecraft-status-bot/issues"
+  },
+  "homepage": "https://github.com/Picuu/minecraft-status-bot#readme",
+  "dependencies": {
+    "@discordjs/rest": "^1.0.1",
+    "discord-api-types": "^0.37.0",
+    "discord.js": "^14.1.2",
+    "dotenv": "^16.0.1",
+    "mongoose": "^6.5.0"
+  }
+}
