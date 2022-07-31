@@ -1,5 +1,5 @@
 <div id="top"></div>
-<img width="275" height="275" align="left" style="margin: 0 10px 0 0;" alt="🤖 AtlantaRP Discord Bot" src="./imgs/bot-poster.png"> 
+<img width="275" height="275" align="left" style="margin: 0 10px 0 0;" alt="🤖 AtlantaRP Discord Bot" src="./imgs/bot-banner.png"> 
 
 # Minecraft Status Discord bot
 
