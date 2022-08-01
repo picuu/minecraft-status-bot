@@ -1,6 +1,7 @@
 require("dotenv").config();
-const { Client, Collection } = require("discord.js");
-const client = new Client({ intents: 3276799, partials: ["CHANNEL", "USER", "GUILD_MEMBER", "MESSAGE", "REACTION", "GUILD_SCHEDULE_EVENT", "THREAD_MEMBER"] });
+const { Client, Collection, Partials } = require("discord.js");
+const { User, Message, GuildMember, Channel, Reaction, GuildScheduledEvent, ThreadMember } = Partials;
+const client = new Client({ intents: 3276799, partials: [Channel, User, GuildMember, ThreadMember] });
 
 client.commands = new Collection();
 client.buttons = new Collection();
