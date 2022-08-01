@@ -3,3 +3,6 @@
 
 # Multimedia
 /imgs/bot-designs.psd
+
+#env files
+.env
