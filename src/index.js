@@ -4,13 +4,9 @@ const { User, Message, GuildMember, Channel, Reaction, GuildScheduledEvent, Thre
 const client = new Client({ intents: 3276799, partials: [Channel, User, GuildMember, ThreadMember] });
 
 client.commands = new Collection();
-client.buttons = new Collection();
-client.selectMenus = new Collection();
 
 require("./handlers/events.js")(client);
 require("./handlers/commands.js")(client);
-require("./handlers/buttons.js")(client);
-require("./handlers/selectmenus.js")(client);
 
 client.login(process.env.token).then(() => {
   client.user.setActivity(`mc.server.ip`, { type: 3 });

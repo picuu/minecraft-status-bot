@@ -9,9 +9,5 @@ module.exports = {
         
         if (interaction.isCommand()) executeCommand(client, interaction);
 
-        if (interaction.isSelectMenu()) executeSelectMenu(client, interaction);
-
-        if (interaction.isButton()) executeButton(client, interaction);
-
     }
 }
