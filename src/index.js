@@ -9,5 +9,5 @@ require("./handlers/events.js")(client);
 require("./handlers/commands.js")(client);
 
 client.login(process.env.token).then(() => {
-  client.user.setActivity(`mc.server.ip`, { type: 3 });
+  client.user.setActivity(`/mcserver`, { type: 3 });
 }).catch((error) => console.log(error));
