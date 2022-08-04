@@ -1,6 +1,6 @@
 module.exports = async (client, interaction) => {
 
-    const command = client.slashCommands.get(interaction.commandName);
+    const command = client.commands.get(interaction.commandName);
 
     if (!command) return interaction.reply({ content: "This command is outdated!", ephemeral: true });
 
