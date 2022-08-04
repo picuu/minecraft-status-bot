@@ -9,4 +9,6 @@ module.exports = (client) => {
         client.commands.set(command.name, command);
     }
 
+    require("../functions/updateCommands.js")
+
 }
