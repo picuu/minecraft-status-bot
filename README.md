@@ -7,11 +7,14 @@
 [![GitHub](https://img.shields.io/github/license/Picuu/minecraft-status-bot?style=for-the-badge)](https://github.com/Picuu/minecraft-status-bot/blob/master/LICENSE)
 [![Discord](https://img.shields.io/discord/930216630506618880?color=5865F2&logo=Discord&logoColor=white&style=for-the-badge)](https://discord.gg/Kg4x4cFHdZ)
 
-> A Discord bot to see the status of your Minecraft server. It's easy to set up and will work perfectly with the latest versions of MC.
+> A Discord bot to see the status of your Minecraft server. It's easy to set up and ~will work perfectly with the latest versions of MC~.
 
 > ¡Add a ⭐ to the repository to support me!
 
 <br><br>
+
+> [!CAUTION]
+> **This project is outdated and will not receive any support until further notice.**
 
 ## 🚀 Getting started
 This is how you can set up the project locally.
